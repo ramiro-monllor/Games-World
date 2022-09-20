@@ -1,0 +1,63 @@
+.paginita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+.paginita button {
+    width: 40px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #eee;
+    border-color: #eee;
+}
+
+.paginita button:hover {
+    border-color: rgb(109, 51, 255);
+}
+
+.paginita button.active {
+    font-weight: 900;
+    border-color: #ff00bb;
+    background: transparent;
+    color: #ff00bb;
+    box-shadow: 0 5px 5px rgb(255, 0, 170);
+    transform: translateY(4px);
+}
+
+.paginita .botoncitosP{
+    width: 60px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: #eee;
+    border-color: #eee;
+}
+
+.paginita .botoncitosP:hover{
+    border-color: rgb(51, 58, 255);
+}
+
+.paginita .botoncitosP:active{
+    font-weight: 900;
+    border-color: #1e00ff;
+    background: transparent;
+    color: #1e00ff;
+    box-shadow: 0 5px 5px rgb(38, 0, 255);
+    transform: translateY(4px);
+}

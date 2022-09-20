@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+footer{
+    margin-top: auto;
+    /* bottom: 0; */
+    position: absolute;
+    min-width: 100%;
+    /* min-height: 100%; */
+}
+
+.footer-p{
+    background:#999;
+    text-align: center;
+    color: white;
+    background-color: #0a4275;
+}
+
+.container{
+    padding: 1rem; 
+    padding-bottom: 0;
+}
+
+.position{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 30px;
+}
+
+.margin{
+    margin: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nosotros{
+    text-align: center;
+    padding: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
