@@ -10,6 +10,7 @@ import redux from "../../imagenes/redux.png"
 import less from "../../imagenes/less.png"
 import boots from "../../imagenes/boots.png"
 import vercel from "../../imagenes/vercel.png"
+import tailwind from "../../imagenes/tailwind.png"
 
 
 export default function Resources(){
@@ -28,6 +29,7 @@ export default function Resources(){
             <a href="https://lesscss.org/usage/"><img className="imgR Lss" src={less} alt="less" /></a>
             <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/"><img className="imgR Bst" src={boots} alt="boots"/></a>
             <a href="https://vercel.com/home"><img className="imgR Vrl" src={vercel} alt="vercel"/></a>
+            <a href="https://tailwindcss.com/docs/installation"><img className="imgR TW" src={tailwind} alt="tailwind"/></a>
     </div>
 </div>
     )

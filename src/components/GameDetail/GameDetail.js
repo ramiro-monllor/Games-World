@@ -23,7 +23,7 @@ export default function GameDetail(){
     <div className="ficha" id="bright">
   <div className="informacion">
     <div className="encabezad">
-    <h1 style={{fontFamily:"'Lucida Sans'"}}><NavLink to="/"><img src={flecha} style={{height:"40px", marginTop:"-7px"}} alt="flecha"></img></NavLink>  {detail.title}</h1>
+    <h1 style={{fontFamily:"'Lucida Sans'"}}><NavLink to="/home"><img src={flecha} style={{height:"40px", marginTop:"-7px"}} alt="flecha"></img></NavLink>  {detail.title}</h1>
       <h4 className="data" style={{fontFamily: 'Franklin Gothic Medium', color:"#288FFF"}}>{detail.release_date}</h4>
       <span className="caract" style={{fontFamily: 'Cambria, Cochin', width:"200px"}}>{detail.genre}, {detail.platform}</span>
       <span className="caract" style={{fontFamily: 'Cambria, Cochin', width:"200px"}}>{detail.publisher}, {detail.developer}</span>

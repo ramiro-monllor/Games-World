@@ -1,127 +1,135 @@
 .blog-R {
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background: #fff;
-    max-width: 700px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
-    position: relative;
-    box-shadow: 1px 10px 2rem rgba(255, 53, 164, 0.5);
-    font-size: 12px;
-  }
-  
-  .compu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    height: 150px;
-    width: 150px;
-    background: linear-gradient(90deg, #ffffff, #b0a3a3);
-    box-shadow: 0px 5px 1rem rgba(255, 94, 98, 1);
-    border-radius: 100%;
-    position: absolute;
-    left: -10%;
-    top: -13%;
-  }
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #fff;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+  position: relative;
+  box-shadow: 1px 10px 2rem rgba(255, 53, 164, 0.5);
+  font-size: 12px;
+}
 
-  .container-img-R {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    grid-column-gap: 150px;
-    grid-row-gap: 80px;
-    row-gap: 80px;
-  }
-  
-  .imgR {
-    font-size: 12px;
-    height: 6rem;
-    width: 6rem;
-  }
+.compu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(90deg, #ffffff, #b0a3a3);
+  box-shadow: 0px 5px 1rem rgba(255, 94, 98, 1);
+  border-radius: 100%;
+  position: absolute;
+  left: -10%;
+  top: -13%;
+}
 
-  .Ht{
-    filter: drop-shadow(1px 10px 2rem rgba(255, 94, 98));
-    transition: all 0.2s ease-in;
-  }
-  .Ht:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(255, 94, 98, 0.5));
-  }
+.container-img-R {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  grid-column-gap: 150px;
+  grid-row-gap: 80px;
+  row-gap: 80px;
+}
 
-  .Css{
-    filter: drop-shadow(1px 10px 2rem rgb(0, 123, 255));
-    transition: all 0.2s ease-in;
-  }
-  .Css:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(0, 123, 255, 0.5));
-  }
+.imgR {
+  font-size: 12px;
+  height: 6rem;
+  width: 6rem;
+}
 
-  .Js{
-    filter: drop-shadow(1px 10px 2rem rgb(246, 255, 0));
-    transition: all 0.2s ease-in;
-  }
-  .Js:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(246, 255, 0, 0.5));
-  }
+.Ht{
+  filter: drop-shadow(1px 10px 2rem rgba(255, 94, 98));
+  transition: all 0.2s ease-in;
+}
+.Ht:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(255, 94, 98, 0.5));
+}
 
-  .Rt{
-    filter: drop-shadow(1px 10px 2rem rgb(0, 255, 229));
-    transition: all 0.2s ease-in;
-  }
-  .Rt:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(0, 255, 229, 0.5));
-  }
+.Css{
+  filter: drop-shadow(1px 10px 2rem rgb(0, 123, 255));
+  transition: all 0.2s ease-in;
+}
+.Css:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(0, 123, 255, 0.5));
+}
 
-  .Rx{
-    filter: drop-shadow(1px 10px 2rem rgb(134, 13, 190));
-    transition: all 0.2s ease-in;
-  }
-  .Rx:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(134, 13, 190, 0.5));
-  }
+.Js{
+  filter: drop-shadow(1px 10px 2rem rgb(246, 255, 0));
+  transition: all 0.2s ease-in;
+}
+.Js:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(246, 255, 0, 0.5));
+}
 
-  .Lss{
-    filter: drop-shadow(1px 10px 2rem rgb(0, 123, 255));
-    transition: all 0.2s ease-in;
-  }
-  .Lss:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(0, 123, 255, 0.5));
-  }
+.Rt{
+  filter: drop-shadow(1px 10px 2rem rgb(0, 255, 229));
+  transition: all 0.2s ease-in;
+}
+.Rt:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(0, 255, 229, 0.5));
+}
 
-  .Bst{
-    filter: drop-shadow(1px 10px 2rem rgb(179, 0, 255));
-    transition: all 0.2s ease-in;
-  }
-  .Bst:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(179, 0, 255, 0.5));
-  }
-  
-  .Vrl{
-    filter: drop-shadow(1px 10px 2rem rgb(0, 0, 0));
-    transition: all 0.2s ease-in;
-  }
-  .Vrl:hover {
-    filter: drop-shadow( 0px 5px 1rem rgba(0, 0, 0, 0.5));
-  }
+.Rx{
+  filter: drop-shadow(1px 10px 2rem rgb(134, 13, 190));
+  transition: all 0.2s ease-in;
+}
+.Rx:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(134, 13, 190, 0.5));
+}
 
-  @media screen and (max-width: 600px){
-    .blog-R{
-      margin-left: 30px;
-    }
-    .compu{
-      margin-left: 12px;
-    }
-    .container-img-R{
-      grid-column-gap: 35px;
-      grid-row-gap: 20px;
-      row-gap: 20px; 
-    }
+.Lss{
+  filter: drop-shadow(1px 10px 2rem rgb(0, 123, 255));
+  transition: all 0.2s ease-in;
+}
+.Lss:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(0, 123, 255, 0.5));
+}
+
+.Bst{
+  filter: drop-shadow(1px 10px 2rem rgb(179, 0, 255));
+  transition: all 0.2s ease-in;
+}
+.Bst:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(179, 0, 255, 0.5));
+}
+
+.Vrl{
+  filter: drop-shadow(1px 10px 2rem rgb(0, 0, 0));
+  transition: all 0.2s ease-in;
+}
+.Vrl:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(0, 0, 0, 0.5));
+}
+
+.TW{
+  filter: drop-shadow(1px 10px 2rem rgb(0, 217, 255));
+  transition: all 0.2s ease-in;
+}
+.TW:hover {
+  filter: drop-shadow( 0px 5px 1rem rgba(0, 217, 255, 0.5));
+}
+
+@media screen and (max-width: 600px){
+  .blog-R{
+    margin-left: 30px;
   }
+  .compu{
+    margin-left: 12px;
+  }
+  .container-img-R{
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+    row-gap: 20px; 
+  }
+}

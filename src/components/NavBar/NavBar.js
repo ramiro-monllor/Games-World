@@ -18,7 +18,7 @@ export default function Nav2(){
         <div className="page">
         {/* <header tabindex="0"> */}
         <header>
-          <NavLink to="/"><img src={img} alt="logo" width="60" height="60"/>
+          <NavLink to="/home"><img src={img} alt="logo" width="60" height="60"/>
           <a style={{color: "white"}}>Game World</a>
           </NavLink>
           </header>
@@ -26,7 +26,7 @@ export default function Nav2(){
           <div className={`tocador ${isActive ? "" : "active"}`} onClick={handleToggle}></div>
             <div className={`sliderbar ${isActive ? "" : "active"}`} onClick={handleToggle}>
             <ul>
-            <NavLink to="/" style={{color: "black"}}><li><a>Home</a></li></NavLink>
+            <NavLink to="/home" style={{color: "black"}}><li><a>Home</a></li></NavLink>
             <NavLink to="/favs" style={{color: "black"}}><li><a>Favorites</a></li></NavLink>
             <NavLink to="/gamescreated" style={{color: "black"}}><li><a>Games Created</a></li></NavLink>
             <NavLink to="/create" style={{color: "black"}}><li><a>Create Game</a></li></NavLink>
