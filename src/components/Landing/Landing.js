@@ -7,7 +7,7 @@ import "./Landing.css"
 export default function Landing(){
 
     return(
-        <section class="relative bg-center bg-no-repeat bg-cover bg-[url(https://wallpaperaccess.com/full/5927911.gif)]" style={{minWidth: "400px", minHeight: "900px" }}>
+        <section class="relative bg-center bg-no-repeat bg-cover bg-[url(https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif)]" style={{minWidth: "400px", minHeight: "900px" }}>
   <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
 
   <div class="relative px-4 py-32 mx-auto max-w-screen-xl sm:px-6 lg:px-8 lg:h-screen lg:items-center lg:flex">
