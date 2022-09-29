@@ -29,7 +29,10 @@ export default function GamesCard(props){
     })
     Toast.fire({
       icon: 'success',
-      title: 'Game added to favorites'
+      iconColor: "#8EFF60",
+      title: 'Game added to favorites',
+      color: 'white',
+			background: 'pink',
     })
    }
 

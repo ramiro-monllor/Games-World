@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## Bienvenido al repositorio de games world !
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### De que se trata?
 
-## Available Scripts
+“Gameworld” es un mini proyecto creado por Facundo Monllor y Ramiro Monllor, con el uso de distintos lenguajes, frameworks y herramientas (ver aquí), este proyecto se trata sobre una app conectada a una api de la cual consume sus datos para mostrar juegos, filtrarlos, elegir tus favoritos como también la posibilidad de crear los tuyos. Fue diseñado y construido con mucha dedicación y esfuerzo, esperamos que les encante y estamos contentos de recibir sus opiniones aquí debajo.
 
-In the project directory, you can run:
+### Que contiene?
+Empezamos por una landing page.
+Ya en la página principal tenemos la opción de realizar distintos tipos de filtrados, contamos con una searchbar y un pagination por debajo de todo.
 
-### `npm start`
+Las funciones principales son agregar juegos a favoritos, y ir a los detalles de cada juego en el cual podemos observar sus detalles principales y un link para poder jugarlo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Luego tenemos un navbar con distintas opciones:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+•Podemos ingresar a juegos favoritos.
 
-### `npm test`
+•Luego podemos crear nuestros propios juegos dándole un nombre , una plataforma, un género y una imagen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•Podemos ver nuestros juegos creados y también los podemos remover.
 
-### `npm run build`
+•Tenemos una sección donde hacemos un resumen de nuestro proyecto y nos pueden dejar su opinión.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+•Por último tenemos la sección de recursos donde podemos ver los recursos utilizados y acceder a su documentación oficial.

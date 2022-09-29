@@ -21,7 +21,10 @@ export default function CreatedCards(props){
     })
     Toast.fire({
       icon: 'error',
-      title: 'Game removed from games created'
+      iconColor: "#EE1313",
+      title: 'Game removed from games created',
+      color: 'white',
+			background: '#FE6C66'
     })
    }
 

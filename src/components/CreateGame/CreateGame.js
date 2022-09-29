@@ -48,7 +48,10 @@ const send = (e) => {
     })
     Toast.fire({
       icon: 'success',
-      title: 'Game created successfully'
+      iconColor: "#8EFF60",
+      title: 'Game created successfully',
+      color: 'white',
+			background: '#FECE66',
     })
     setInput({
         title: "",

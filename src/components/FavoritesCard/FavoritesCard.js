@@ -23,7 +23,10 @@ export default function FavoritesCard(props){
     })
     Toast.fire({
       icon: 'error',
-      title: 'Game removed from favorites'
+      iconColor: "#EE1313",
+      title: 'Game removed from favorites',
+      color: 'white',
+			background: '#FE6C66',
     })
    }
 
