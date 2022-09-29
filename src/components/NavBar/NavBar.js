@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../imagenes/logo psd.png"
 import git from "../../imagenes/github.png"
+import linkedin from "../../imagenes/linkedin.png"
 import { NavLink } from 'react-router-dom';
 import { useState } from "react";
 
@@ -33,8 +34,10 @@ export default function Nav2(){
             <NavLink to="/about" style={{color: "rgb(118, 118, 130)"}}><li className="aboutcito"><a><i>About</i></a></li></NavLink>
             <NavLink to="/resources" style={{color: "rgb(118, 118, 130)"}}><li><a><i>Resources</i></a></li></NavLink>
              <li className="small">
-              <a href="https://github.com/ramiro-monllor">RAMI<img src={git} alt="logo git" width="12" height="12"/></a>
-              <a href="https://github.com/facundo-monllor">FACU<img src={git} alt="logo git" width="12" height="12"/></a>
+              <a href="https://www.linkedin.com/in/ramiro-monllor/">RAMI<img src={linkedin} alt="logo linkedin" width="14" height="14" style={{marginLeft: "5px"}}/></a>
+              <a href="https://github.com/ramiro-monllor"><img src={git} alt="logo git" width="14" height="14" style={{marginLeft: "-5px"}}/></a>
+              <a href="https://www.linkedin.com/in/facundo-monllor/">FACU<img src={linkedin} alt="logo linkedin" width="14" height="14"style={{marginLeft: "5px"}}/></a>
+              <a href="https://github.com/facundo-monllor"><img src={git} alt="logo git" width="14" height="14" style={{marginLeft: "-5px"}}/></a>
              </li>
             </ul>
             </div>
