@@ -51,7 +51,7 @@
 }
 
 .thumbnailC{
-    filter: drop-shadow(0 2px 5px rgba(145, 99, 99, 1));
+    filter: drop-shadow(0 2px 5px rgba(145, 99, 98, 1));
     margin-bottom: 40px;
     margin-top: 20px;
     width: 400px;
